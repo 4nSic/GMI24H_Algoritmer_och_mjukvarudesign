@@ -6,17 +6,18 @@
         {
             MyLinkedList testList = new MyLinkedList();
 
-            testList.AddNodeToStart(new MyNode(1));
-            testList.AddNodeToStart(new MyNode(2));
-            testList.AddNodeToStart(new MyNode(3));
-            testList.AddNodeToStart(new MyNode(4));
-            testList.AddNodeToStart(new MyNode(5));
-            testList.AddNodeToEnd(new MyNode(6));
+            testList.AddToEnd(new MyNode(new Person("Anna", "Sten", 198201017001)));
+            testList.AddToEnd(new MyNode(new Person("Lina", "Al", 198002027002)));
+            testList.AddToEnd(new MyNode(new Person("Stina", "Gren", 198403037003)));
+            testList.AddToEnd(new MyNode(new Person("Björn", "Granit", 198504047404)));
+            testList.AddToEnd(new MyNode(new Person("Bo", "Hallberg", 198606067606)));
+            testList.AddToEnd(new MyNode(new Person("Rolf", "Berg", 199010127138)));
+
+            testList.DeleteAtIndex(5);
 
             testList.FlushList();
 
-            MyNode test = testList.GetNodeAttIndex(0);
-            Console.WriteLine(test.Value);
+            
 
 
 

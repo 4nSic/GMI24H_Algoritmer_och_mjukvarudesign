@@ -8,6 +8,11 @@ namespace MyLinkedList
 {
     public interface ListInterface
     {
-
+        public void AddToStart(Object newNod);
+        public void AddToEnd(Object newNode);
+        public void FlushList();
+        public void DeleteFirst();
+        public void DeleteLast();
+        public void DeleteAtIndex(int index);
     }
 }

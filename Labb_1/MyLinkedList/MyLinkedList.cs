@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace MyLinkedList
 {
-    public class MyLinkedList
+    public class MyLinkedList : ListInterface
     {
         private MyNode head;
         private int length;
@@ -17,16 +18,21 @@ namespace MyLinkedList
             length = 0;
         }
 
-        public void AddNodeToStart(MyNode newNod)
-        {   
-            newNod.NextNode = head.NextNode;
-            head.NextNode = newNod;
+        public int Length { get { return length; } }
+
+        public void AddToStart(Object obj)
+        {
+            MyNode newNode = new MyNode(obj);
+            newNode.NextNode = head.NextNode;
+            head.NextNode = newNode;
             length++;
         }
 
-        public void AddNodeToEnd(MyNode newNode) 
+        public void AddToEnd(Object obj) 
         {
-            if(head.NextNode != null) 
+            MyNode newNode = new MyNode(obj);
+
+            if (head.NextNode != null) 
             {
                 MyNode temp = head.NextNode;
 
@@ -52,7 +58,7 @@ namespace MyLinkedList
             length = 0;
         }
 
-        public void DeleteFirstNode()
+        public void DeleteFirst()
         {
             if (head.NextNode != null) 
             {
@@ -61,7 +67,7 @@ namespace MyLinkedList
             }            
         }
 
-        public void DeleteLastNode() 
+        public void DeleteLast() 
         {   
             if(head.NextNode != null && head.NextNode.NextNode != null)
             {
@@ -82,7 +88,7 @@ namespace MyLinkedList
             length--;
         }
 
-        public MyNode? GetNodeAttIndex(int index) 
+        private MyNode? GetNodeAttIndex(int index) 
         {
             int i = 0;
             MyNode tempNode = null;
@@ -90,6 +96,8 @@ namespace MyLinkedList
             if(head.NextNode != null) 
             {
                 tempNode=head.NextNode;
+
+
                 while(i < index) 
                 {
                     if(tempNode.NextNode != null)
@@ -115,18 +123,26 @@ namespace MyLinkedList
             
         }
 
-    }
+        public void DeleteAtIndex(int index)
+        {
+            if(index < 0 || index > length-1)
+            {
+                throw new MyLinkedListIndexNotFoundException($"{index} not found in the list");
+            }
 
-    public class MyLinkedListIndexNotFoundException : Exception 
-    {
-        public MyLinkedListIndexNotFoundException()
-        { }
+            if(index ==0) 
+            {
+                head.NextNode = head.NextNode.NextNode;
+            }
+            else
+            {
+                MyNode tempNode = GetNodeAttIndex(index-1);
+                tempNode.NextNode = tempNode.NextNode.NextNode;
+            }
 
-        public MyLinkedListIndexNotFoundException(string message): base(message) 
-        { }
+            length--;
+        }
 
-        public MyLinkedListIndexNotFoundException(string message, Exception inner): base(message, inner) 
-        { }
     }
 
 }
