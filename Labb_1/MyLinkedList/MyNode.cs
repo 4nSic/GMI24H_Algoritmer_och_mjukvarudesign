@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace MyLinkedList
 {
+    /// <summary>
+    /// Class that represents a node to be used in a liked list
+    /// </summary>
     public class MyNode
     {         
         private Object? value;
