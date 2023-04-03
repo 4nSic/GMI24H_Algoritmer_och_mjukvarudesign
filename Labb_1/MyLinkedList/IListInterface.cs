@@ -8,10 +8,10 @@ namespace MyLinkedList
 {   /// <summary>
 /// interface used to define methods that shuold be posibel tu use whit a list
 /// </summary>
-    public interface ListInterface
+    public interface IListInterface<T> : IEnumerable<T>
     {
-        public void AddToStart(Object newNod);
-        public void AddToEnd(Object newNode);
+        public void AddToStart(T value);
+        public void AddToEnd(T value);
         public void FlushList();
         public void DeleteFirst();
         public void DeleteLast();

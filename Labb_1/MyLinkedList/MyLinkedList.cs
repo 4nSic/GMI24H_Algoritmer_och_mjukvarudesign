@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace MyLinkedList
 {   /// <summary>
 /// Class that representas a linked list
 /// </summary>
-    public class MyLinkedList : ListInterface
+    public class MyLinkedList<T>: IEnumerable<T> ,IListInterface<T>
     {
         private MyNode head;
         private int length;
@@ -29,7 +30,7 @@ namespace MyLinkedList
         /// Method used to add a item to the beginig off the list 
         /// </summary>
         /// <param name="obj"></param>
-        public void AddToStart(Object obj)
+        public void AddToStart(T obj)
         {
             MyNode newNode = new MyNode(obj);
             newNode.NextNode = head.NextNode;
@@ -41,7 +42,7 @@ namespace MyLinkedList
         /// Method used to add a item to the end off the list
         /// </summary>
         /// <param name="obj"></param>
-        public void AddToEnd(Object obj) 
+        public void AddToEnd(T obj) 
         {
             MyNode newNode = new MyNode(obj);
 
@@ -176,6 +177,49 @@ namespace MyLinkedList
             length--;
         }
 
+        public IEnumerator<T> GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
+        public T this[int index]
+        {
+            get { MyNode tempNode = GetNodeAttIndex(index); return tempNode.Value; }
+            set { GetNodeAttIndex(index).Value = value; }
+        }
+
+
+        /// <summary>
+        /// Class that represents a node to be used in a liked list
+        /// </summary>
+        protected class MyNode
+        {
+            private T value;
+            private MyNode? nextNode;
+
+            public MyNode() {}
+
+            public MyNode(T value)
+            {
+                this.value = value;
+                this.nextNode = null;
+            }
+
+            public T Value { get { return value; } set { this.value = value; } }
+
+            public MyNode? NextNode { get { return nextNode; } set { nextNode = value; } }
+
+        }
+
     }
+
+
+
+
 
 }
