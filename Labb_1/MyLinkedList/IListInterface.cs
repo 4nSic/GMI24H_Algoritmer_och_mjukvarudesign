@@ -12,9 +12,18 @@ namespace MyLinkedList
     {
         public void AddToStart(T value);
         public void AddToEnd(T value);
+        public void AddAtIndex(T obj, int index);
         public void FlushList();
         public void DeleteFirst();
         public void DeleteLast();
         public void DeleteAtIndex(int index);
+
+        T this[int index]
+        {
+            get;
+            set;
+        }
+
+        int Length { get; }
     }
 }

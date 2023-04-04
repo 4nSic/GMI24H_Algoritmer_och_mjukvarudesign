@@ -30,11 +30,6 @@ namespace MyLinkedList
 
         public string LastName { get { return lastName; } set { lastName = value; } }
 
-        public IEnumerator GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
-
         public override string ToString() 
         {
             return $"Namn: {Name}, Pnr: {Pnr}";

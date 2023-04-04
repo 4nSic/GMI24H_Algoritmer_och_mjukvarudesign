@@ -11,10 +11,14 @@ namespace MyLinkedList
     /// </summary>
     public class MyNode<T>
     {
-        private T value;
+        private T? value;
         private MyNode<T>? nextNode;
 
-        public MyNode() { }
+        public MyNode()
+        {
+            this.nextNode = null;
+            this.value = default;
+        }
 
         public MyNode(T value)
         {
@@ -22,7 +26,7 @@ namespace MyLinkedList
             this.nextNode = null;
         }
 
-        public T Value { get { return value; } set { this.value = value; } }
+        public T? Value { get { return value; } set { this.value = value; } }
 
         public MyNode<T>? NextNode { get { return nextNode; } set { nextNode = value; } }
 

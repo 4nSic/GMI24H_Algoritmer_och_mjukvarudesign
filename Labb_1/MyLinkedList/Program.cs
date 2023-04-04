@@ -5,7 +5,7 @@
         public static void Main(string[] args)
         {
             //Create an instance of the MyLinkedList class
-            MyLinkedList<Person> testList = new MyLinkedList<Person>();
+            IListInterface<Person> testList = new MyLinkedList<Person>();
 
             //Add content to the list
             testList.AddToEnd(new Person("Anna", "Sten", 198201017001));
@@ -14,27 +14,23 @@
             testList.AddToStart(new Person("Björn", "Granit", 198504047404));
             testList.AddToEnd(new Person("Bo", "Hallberg", 198606067606));
             testList.AddToStart(new Person("Rolf", "Berg", 199010127138));
+            testList.AddAtIndex(new Person("Alf", "Salt", 200001017141),5);
 
             //Write list length to the console
-            Console.WriteLine($"Items in list: {testList.Length}");
+              Console.WriteLine($"Items in list: {testList.Length}\n");
 
             //Acess item at given index
-            //for (int i = 0; i < testList.Length; i++)
-            //{
-            //    Console.WriteLine($"Value of item at index {i}: {testList[i]}");
-            //}
-
-            foreach (var item in testList)
+            Console.WriteLine("The lists contence: ");
+             foreach (var item in testList)
             {
-                Console.WriteLine($"Value of item at index ? is : {item.Value}");
+                Console.WriteLine($"{item}");
             }
-
 
             //Delete a item in the list on a given index
             testList.DeleteAtIndex(5);
 
             //Write list length to the console
-            Console.WriteLine($"Items in list: {testList.Length}");
+            Console.WriteLine($"\nItems in list: {testList.Length}\n");
 
             //Epty the list
             testList.FlushList();
