@@ -10,14 +10,14 @@ namespace MyLinkedList
 {   /// <summary>
 /// Class that representas a linked list
 /// </summary>
-    public class MyLinkedList<T>: IEnumerable<T> ,IListInterface<T>
+    public class MyLinkedList<T>: IEnumerable<MyNode<T>> ,IListInterface<T>
     {
-        private MyNode head;
+        private readonly MyNode<T> head;
         private int length;
 
         public MyLinkedList() 
         {
-            head = new MyNode();
+            head = new MyNode<T>();
             length = 0;
         }
 
@@ -32,7 +32,7 @@ namespace MyLinkedList
         /// <param name="obj"></param>
         public void AddToStart(T obj)
         {
-            MyNode newNode = new MyNode(obj);
+            MyNode<T> newNode = new MyNode<T>(obj);
             newNode.NextNode = head.NextNode;
             head.NextNode = newNode;
             length++;
@@ -44,11 +44,11 @@ namespace MyLinkedList
         /// <param name="obj"></param>
         public void AddToEnd(T obj) 
         {
-            MyNode newNode = new MyNode(obj);
+            MyNode<T> newNode = new MyNode<T>(obj);
 
             if (head.NextNode != null) 
             {
-                MyNode temp = head.NextNode;
+                MyNode<T> temp = head.NextNode;
 
                 while (temp.NextNode != null)
                 {
@@ -94,7 +94,7 @@ namespace MyLinkedList
         {   
             if(head.NextNode != null && head.NextNode.NextNode != null)
             {
-                MyNode tempNode = head.NextNode;
+                MyNode<T> tempNode = head.NextNode;
 
                 while (tempNode.NextNode != null && tempNode.NextNode.NextNode != null)
                 {
@@ -117,10 +117,10 @@ namespace MyLinkedList
         /// <param name="index"></param>
         /// <returns></returns>
         /// <exception cref="IndexOutOfRangeException"></exception>
-        private MyNode? GetNodeAttIndex(int index) 
+        private MyNode<T>? GetNodeAttIndex(int index) 
         {
             int i = 0;
-            MyNode tempNode = null;
+            MyNode<T> tempNode = null;
 
             if(head.NextNode != null) 
             {
@@ -142,13 +142,13 @@ namespace MyLinkedList
 
                 if(i != index)
                 {
-                    throw new IndexOutOfRangeException();
+                    throw new MyLinkedListIndexNotFoundException();
                 }
 
                 return tempNode;
             }
 
-            throw new IndexOutOfRangeException();
+            throw new MyLinkedListIndexNotFoundException();
             
         }
 
@@ -170,51 +170,54 @@ namespace MyLinkedList
             }
             else
             {
-                MyNode tempNode = GetNodeAttIndex(index-1);
+                MyNode<T> tempNode = GetNodeAttIndex(index-1);
                 tempNode.NextNode = tempNode.NextNode.NextNode;
             }
 
             length--;
         }
 
-        public IEnumerator<T> GetEnumerator()
+
+
+       public IEnumerator<MyNode<T>> GetEnumerator()
         {
-            throw new NotImplementedException();
+            MyNode<T>? currentNode = head;
+            while (currentNode is not null)
+            {
+                yield return currentNode;
+                currentNode = currentNode.NextNode;
+            }
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return GetEnumerator();
+        }
+
+        IEnumerator<MyNode<T>> IEnumerable<MyNode<T>>.GetEnumerator()
+        {
+            MyNode<T>? currentNode = head;
+            while (currentNode is not null)
+            {
+                yield return currentNode;
+                currentNode = currentNode.NextNode;
+            }
+        }
+
+        IEnumerator<T> IEnumerable<T>.GetEnumerator()
+        {
+            //throw new NotImplementedException();
+            return (IEnumerator<T>)GetEnumerator();
         }
 
         public T this[int index]
         {
-            get { MyNode tempNode = GetNodeAttIndex(index); return tempNode.Value; }
+            get { MyNode<T> tempNode = GetNodeAttIndex(index); return tempNode.Value; }
             set { GetNodeAttIndex(index).Value = value; }
         }
 
 
-        /// <summary>
-        /// Class that represents a node to be used in a liked list
-        /// </summary>
-        protected class MyNode
-        {
-            private T value;
-            private MyNode? nextNode;
 
-            public MyNode() {}
-
-            public MyNode(T value)
-            {
-                this.value = value;
-                this.nextNode = null;
-            }
-
-            public T Value { get { return value; } set { this.value = value; } }
-
-            public MyNode? NextNode { get { return nextNode; } set { nextNode = value; } }
-
-        }
 
     }
 

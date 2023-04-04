@@ -18,7 +18,17 @@
             //Write list length to the console
             Console.WriteLine($"Items in list: {testList.Length}");
 
-            Console.WriteLine($"Value of item at index 5: {testList[5]}");
+            //Acess item at given index
+            //for (int i = 0; i < testList.Length; i++)
+            //{
+            //    Console.WriteLine($"Value of item at index {i}: {testList[i]}");
+            //}
+
+            foreach (var item in testList)
+            {
+                Console.WriteLine($"Value of item at index ? is : {item.Value}");
+            }
+
 
             //Delete a item in the list on a given index
             testList.DeleteAtIndex(5);
