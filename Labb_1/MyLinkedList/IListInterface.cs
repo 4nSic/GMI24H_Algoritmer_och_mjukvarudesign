@@ -18,12 +18,12 @@ namespace MyLinkedList
         public void DeleteLast();
         public void DeleteAtIndex(int index);
 
-        T this[int index]
+        public T this[int index]
         {
             get;
             set;
         }
 
-        int Length { get; }
+       public int Length { get; }
     }
 }

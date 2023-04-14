@@ -125,7 +125,7 @@ namespace MyLinkedList
 
             if (index < 0 || index > length - 1)
             {
-                throw new MyLinkedListIndexNotFoundException($"{index} not found in the list");
+                throw new MyLinkedListIndexNotFoundException($"Index: {index} not found in the list");
             }
 
             if (index == 0)

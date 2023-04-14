@@ -10,7 +10,7 @@ namespace MyLinkedList
     /// <summary>
     /// Class that represents a person whit a first name, last name and a personal number
     /// </summary>
-    internal class Person
+    public class Person
     {
         private string firstName, lastName;
         private Int64 pnr;
