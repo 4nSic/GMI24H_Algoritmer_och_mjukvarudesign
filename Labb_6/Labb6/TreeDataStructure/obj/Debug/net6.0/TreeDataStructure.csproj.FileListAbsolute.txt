@@ -1,0 +1,12 @@
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.csproj.AssemblyReference.cache
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.AssemblyInfoInputs.cache
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.AssemblyInfo.cs
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.csproj.CoreCompileInputs.cache
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\bin\Debug\net6.0\TreeDataStructure.deps.json
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\bin\Debug\net6.0\TreeDataStructure.dll
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\bin\Debug\net6.0\TreeDataStructure.pdb
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.dll
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\refint\TreeDataStructure.dll
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.pdb
+C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\ref\TreeDataStructure.dll
