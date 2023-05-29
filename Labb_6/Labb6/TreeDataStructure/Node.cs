@@ -2,16 +2,14 @@
 {
     public class Node
     {
-        private List<Node>  _children;
-
         public Node(int value)
         {
             Value = value;
-            _children = new List<Node>();
+            Children = new List<Node>();
         }
 
-        public List<Node> Children {  get { return _children; }  set { _children = value; } }
-        
+        public List<Node> Children { get; set; }
+
         public Node? Parent { get; set; }
 
         public int Value { get; set; }
