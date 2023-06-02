@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Labb6/1.0.0": {
+        "dependencies": {
+          "TreeDataStructure": "1.0.0"
+        },
+        "runtime": {
+          "Labb6.dll": {}
+        }
+      },
+      "TreeDataStructure/1.0.0": {
+        "runtime": {
+          "TreeDataStructure.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Labb6/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TreeDataStructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

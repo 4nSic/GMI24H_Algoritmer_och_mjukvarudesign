@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33717.318
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labb6", "Labb6\Labb6.csproj", "{7132A14D-BE35-4A8E-8EDC-AA85CE4E1C03}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Labb6", "Labb6\Labb6.csproj", "{7132A14D-BE35-4A8E-8EDC-AA85CE4E1C03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeDataStructure", "TreeDataStructure\TreeDataStructure.csproj", "{7FF437E7-F0DB-4083-8D3F-DC3FA6C33AD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreeDataStructure", "TreeDataStructure\TreeDataStructure.csproj", "{7FF437E7-F0DB-4083-8D3F-DC3FA6C33AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{5D4517B3-D4B2-4EE2-A011-F1595D4EBBB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7FF437E7-F0DB-4083-8D3F-DC3FA6C33AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FF437E7-F0DB-4083-8D3F-DC3FA6C33AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FF437E7-F0DB-4083-8D3F-DC3FA6C33AD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4517B3-D4B2-4EE2-A011-F1595D4EBBB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4517B3-D4B2-4EE2-A011-F1595D4EBBB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4517B3-D4B2-4EE2-A011-F1595D4EBBB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4517B3-D4B2-4EE2-A011-F1595D4EBBB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
