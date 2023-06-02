@@ -106,8 +106,9 @@ namespace TreeDataStructure
             }
             else 
             {
-                node.Parent.Children.Remove(node);
-                node.Parent = null;
+                var parent = FindParent(node);
+                parent.Children.Remove(node);
+                parent = null;
             }            
 
             

@@ -13,7 +13,6 @@ namespace TestProject1
         [Test]
         public void TestTreeAddRoot()
         {
-
             //Arrange
             var root = new Tree();
             var actutal = root.AddRoot(1);
@@ -26,7 +25,6 @@ namespace TestProject1
         [Test]
         public void TestTreeAddChild()
         {
-
             //Arrange                       
             var tree = new Tree();
             var root = tree.AddRoot(1);           
@@ -41,7 +39,6 @@ namespace TestProject1
         [Test]
         public void TestTreeAddChildExcepiton()
         {
-
             //Arrange                       
             var tree = new Tree();
 
@@ -53,7 +50,6 @@ namespace TestProject1
         [Test]
         public void TestTreeFindParent()
         {
-
             //Arrange
             var tree = new Tree();
             var root = tree.AddRoot(1);
@@ -67,7 +63,6 @@ namespace TestProject1
         [Test]
         public void TestTreeRemove()
         {
-
             //Arrange
             var tree = new Tree();
             var root = tree.AddRoot(1);
@@ -78,7 +73,7 @@ namespace TestProject1
             tree.Remove(secondChild);
 
             //Assert
-            Assert.That(!root.Children.Contains(secondChild));
+            Assert.That(!root.Children.Contains(secondChild) && root.Children.Contains(firstChild));
         }
     }
 }
