@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\repos\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\Labb6\\Labb6.csproj": {}
+    "C:\\Users\\sebas\\OneDrive\\Skrivbord\\Högskolan\\mjuktest\\labb6ochovrigt\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\Labb6\\Labb6.csproj": {}
   },
   "projects": {
-    "C:\\repos\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\Labb6\\Labb6.csproj": {
+    "C:\\Users\\sebas\\OneDrive\\Skrivbord\\Högskolan\\mjuktest\\labb6ochovrigt\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\Labb6\\Labb6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\Labb6\\Labb6.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\OneDrive\\Skrivbord\\Högskolan\\mjuktest\\labb6ochovrigt\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\Labb6\\Labb6.csproj",
         "projectName": "Labb6",
-        "projectPath": "C:\\repos\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\Labb6\\Labb6.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\Labb6\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\OneDrive\\Skrivbord\\Högskolan\\mjuktest\\labb6ochovrigt\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\Labb6\\Labb6.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\OneDrive\\Skrivbord\\Högskolan\\mjuktest\\labb6ochovrigt\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\Labb6\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\repos\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\TreeDataStructure.csproj": {
-                "projectPath": "C:\\repos\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\TreeDataStructure.csproj"
+              "C:\\Users\\sebas\\OneDrive\\Skrivbord\\Högskolan\\mjuktest\\labb6ochovrigt\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\TreeDataStructure.csproj": {
+                "projectPath": "C:\\Users\\sebas\\OneDrive\\Skrivbord\\Högskolan\\mjuktest\\labb6ochovrigt\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\TreeDataStructure.csproj"
               }
             }
           }
@@ -68,21 +68,20 @@
         }
       }
     },
-    "C:\\repos\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\TreeDataStructure.csproj": {
+    "C:\\Users\\sebas\\OneDrive\\Skrivbord\\Högskolan\\mjuktest\\labb6ochovrigt\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\TreeDataStructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\repos\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\TreeDataStructure.csproj",
+        "projectUniqueName": "C:\\Users\\sebas\\OneDrive\\Skrivbord\\Högskolan\\mjuktest\\labb6ochovrigt\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\TreeDataStructure.csproj",
         "projectName": "TreeDataStructure",
-        "projectPath": "C:\\repos\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\TreeDataStructure.csproj",
-        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
-        "outputPath": "C:\\repos\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\obj\\",
+        "projectPath": "C:\\Users\\sebas\\OneDrive\\Skrivbord\\Högskolan\\mjuktest\\labb6ochovrigt\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\TreeDataStructure.csproj",
+        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sebas\\OneDrive\\Skrivbord\\Högskolan\\mjuktest\\labb6ochovrigt\\GMI24H_Algoritmer_och_mjukvarudesign\\Labb_6\\Labb6\\TreeDataStructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,6 +90,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

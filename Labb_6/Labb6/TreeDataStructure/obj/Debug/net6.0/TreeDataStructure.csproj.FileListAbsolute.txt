@@ -10,3 +10,15 @@ C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj
 C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\refint\TreeDataStructure.dll
 C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.pdb
 C:\Repos\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\ref\TreeDataStructure.dll
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\bin\Debug\net6.0\TreeDataStructure.deps.json
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\bin\Debug\net6.0\TreeDataStructure.dll
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\bin\Debug\net6.0\TreeDataStructure.pdb
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.csproj.AssemblyReference.cache
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.AssemblyInfoInputs.cache
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.AssemblyInfo.cs
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.csproj.CoreCompileInputs.cache
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.dll
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\refint\TreeDataStructure.dll
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\TreeDataStructure.pdb
+C:\Users\sebas\OneDrive\Skrivbord\Högskolan\mjuktest\labb6ochovrigt\GMI24H_Algoritmer_och_mjukvarudesign\Labb_6\Labb6\TreeDataStructure\obj\Debug\net6.0\ref\TreeDataStructure.dll
